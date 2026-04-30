@@ -1,0 +1,117 @@
+
+
+body{
+   background-color: black;
+}
+h1{
+   text-align:center;
+   background-color:black;
+   color:red;
+   margin-left:auto;
+   margin-right:auto;
+   padding:15px;
+   text-decoration: underline;
+
+}
+
+#memeImage{
+   width:350px;
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+
+}
+
+ol{
+       list-style-type: disc;
+       color: rgb(202, 200, 200);
+       background-color: red;
+       font-size: large;       
+
+}
+
+h2{
+       font-family:sans-serif;
+       text-decoration:underline;
+       color: Red;
+       background:black;
+}
+
+button{
+       margin-right:auto;
+       margin-left:auto;
+       display:block;
+       border-radius:20px;
+       background-color: lightblue;
+       
+}
+
+#robotimage{
+       display:block;
+       width:1885px;
+       height: 150px;
+       
+}
+
+Footer{
+
+       color:white;
+}
+
+
+audio {
+    display:block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;        
+    border: 2px solid red;     
+    width: 300px;
+    
+}
+
+/* Container for the menu */
+nav {
+    background-color: #000; /* Deep black */
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px red; /* Techy glow */
+}
+
+/* The actual list */
+nav ul {
+    list-style-type: none; /* Removes the red dots seen in image_28fa25.png */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Makes the menu horizontal */
+    justify-content: center; /* Centers the links */
+}
+
+/* Individual links */
+nav li a {
+    color: lightblue; /* Matches your current nav theme */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace; /* Robotic font */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s; /* Smooth glow transition */
+}
+
+/* Hover effect */
+nav li a:hover {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: 0 0 15px red;
+}
+
+#imgDude {
+    position: absolute;
+    top: 80px;    
+    left: 20px;  
+    width: 80px;  
+    height: auto;
+   
+}
